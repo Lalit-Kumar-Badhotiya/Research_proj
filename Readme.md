@@ -43,6 +43,7 @@ mkdir data/train/good
 mkdir data/test/all
 ```
 In the good folder add the training data
+<br>
 Int the all folder add the testing data (pretty self-explanatory)
 
 
