@@ -28,7 +28,32 @@ Install the required Python packages using the provided `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-### 4. Running the Applications
+### 4. Add the Dataset
+
+```bash
+cd Genarlized Anomaly Model
+```
+OR
+```bash
+cd Specific Anomaly Model
+```
+Then 
+```bash
+mkdir data/train/good
+mkdir data/test/all
+```
+In the good folder add the training data
+Int the all folder add the testing data (pretty self-explanatory)
+
+
+### 5. Train the Model
+
+```bash
+python train.py
+```
+This will give a padim_model.pth file and this is your trained model
+
+### 6. Running the Applications
 
 This project contains two separate web applications.
 
