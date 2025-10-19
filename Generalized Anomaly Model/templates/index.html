@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anomaly Detection</title>
+</head>
+<body>
+    <h1>Select an Image to Analyze</h1>
+    <form action="/analyze" method="post">
+        <select name="image_name">
+            {% for image_name in image_names %}
+                <option value="{{ image_name }}">{{ image_name }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>

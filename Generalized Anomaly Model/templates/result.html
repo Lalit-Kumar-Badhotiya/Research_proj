@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Anomaly Detection Result</title>
+    <style>
+      .image-container {
+        display: flex;
+        gap: 20px;
+      }
+      .image-container img {
+        max-width: 300px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Analysis Result</h1>
+    <p>Anomaly Score: {{ score }}</p>
+    <div class="image-container">
+      <div>
+        <h2>Original Image</h2>
+        <img src="{{ original_image }}" alt="Original Image" />
+      </div>
+
+      <div>
+        <h2>Boundary Image</h2>
+        <img src="{{ boundary_image }}" alt="Boundary Image" />
+      </div>
+    </div>
+    <br />
+    <a href="/">Back to Home</a>
+  </body>
+</html>
