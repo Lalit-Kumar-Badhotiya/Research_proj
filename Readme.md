@@ -1,4 +1,3 @@
-
 # Anomaly Detection Project
 
 This project contains two anomaly detection models: a generalized model and a specific model.
@@ -9,8 +8,8 @@ To set up and run this project locally, follow these steps:
 
 ### 1. Prerequisites
 
--   Python 3.x installed.
--   Git installed.
+- Python 3.x installed.
+- Git installed.
 
 ### 2. Clone the Repository
 
@@ -34,25 +33,30 @@ pip install -r requirements.txt
 ```bash
 cd Genarlized Anomaly Model
 ```
+
 OR
+
 ```bash
 cd Specific Anomaly Model
 ```
+
 Then
+
 ```bash
 mkdir data/train/good
 mkdir data/test/all
 ```
+
 In the good folder add the training data
 <br>
 Int the all folder add the testing data (pretty self-explanatory)
-
 
 ### 5. Train the Model
 
 ```bash
 python train.py
 ```
+
 This will give a padim_model.pth file and this is your trained model
 
 ### 6. Running the Applications
