@@ -37,7 +37,7 @@ OR
 ```bash
 cd Specific Anomaly Model
 ```
-Then 
+Then
 ```bash
 mkdir data/train/good
 mkdir data/test/all
